@@ -10,7 +10,7 @@ Simplesmente copie o conteúdo do arquivo "cnae.rb" e cole no Seed.rb (ou em out
 
 Eu estou usando a tabelas de Banco
   _____________________________
- |    		  	CNAE             | 
+ |						CNAE 						 | 
  |-----------------------------| 
  | cnae:string                 | 
  | descricao_cnae:string       | 
