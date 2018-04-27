@@ -1,0 +1,20 @@
+== Código Rails para Popular CNAE
+
+É um código simples mas chato de se fazer. O que eu fiz foi só organizar um código (pra ser usado em um seed do Rails) pra popular a tabela de banco
+
+Quem achar algum erro de português ou cnae faltando, por favor me sinalize para que outras pessoas possam ter acesso ao arquivo corrigido.
+
+== Uso
+
+Simplesmente copie o conteúdo do arquivo "cnae.rb" e cole no Seed.rb (ou em outro arquivo) de sua aplicação. Uma outra sugestão é incluir em um arquivo Thor na pasta /lib/tasks do seu projeto Rails.
+
+Eu estou usando a tabelas de Banco
+  _____________________________
+ |    		  	CNAE             | 
+ |-----------------------------| 
+ | cnae:string                 | 
+ | descricao_cnae:string       | 
+ | item_lista:string           | 
+ | descricao_item_lista:string | 
+ -------------------------------
+                  
